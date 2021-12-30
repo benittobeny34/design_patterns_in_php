@@ -1,0 +1,17 @@
+{
+    "name": "vagrant/adapter-patter",
+    "description": "\"Getting Giggy With Adapter Pattern\"",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Benitto",
+            "email": "brendonbeni42@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "App\\":"src/"
+        }
+    }
+}
