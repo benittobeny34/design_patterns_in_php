@@ -4,7 +4,7 @@ require 'vendor/autoload.php';
 use App\Pulsar;
 //customer wants to buy different kind of bike based on their interest
 $bikeFactory = new \App\BikeFactory();
-$model = $bikeFactory->getBrandObject('re');
+$model = $bikeFactory->getBrandObject('yamaha');
 $models = implode($model->availableModels(),',');
 
 var_dump("The Brand of the bike {$model->brand()}. The available models are {$models}. For further details contact {$model->manager()}");
